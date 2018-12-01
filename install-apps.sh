@@ -15,17 +15,21 @@ brew upgrade
 
 # cli
 binaries=(
+ caskroom/cask/brew-cask
+ curl
  git
  htop
  maven
+ mongodb
  node
+ openssl
  postgresql
- pt
- python3
+ python
+ sqlite
+ the_platinum_searcher
  tomcat
  wget
- curl
- caskroom/cask/brew-cask
+ yarn
 )
 
 echo "Installing cli binaries..."
